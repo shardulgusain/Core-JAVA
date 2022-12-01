@@ -2,4 +2,4 @@ Topics covered
 1:- Packages
 2:- Import
 3:- Static(Variables,Methods,Block,Inner vs Outer Class)
-4:- Implementing singleton classes
+4:- Implementing singleton class
