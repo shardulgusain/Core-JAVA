@@ -1,0 +1,2 @@
+Abstraction is like a design level data hiding. Just like a car , press acc and it will gain velocity.
+Encapsulation is like real implementation , that is what happens when you press accelerator , why tyres gain rotaion, i.e total internal implementation .
