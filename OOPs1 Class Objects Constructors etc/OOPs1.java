@@ -1,16 +1,16 @@
 //Class Student
-class Student{
-String name;
-int Rno;
-int [] marks = new int[3];
-Student(String n, int rNo, int []m)//Constructor
-{
-    //This here refers to the object that is calling the constructor the class
- this.name = n;
- this.Rno = rNo;
- this.marks = m;
-}
-}
+// class Student{
+// String name;
+// int Rno;
+// int [] marks = new int[3];
+// Student(String n, int rNo, int []m)//Constructor
+// {
+//     //This here refers to the object that is calling the constructor the class
+//  this.name = n;
+//  this.Rno = rNo;
+//  this.marks = m;
+// }
+// }
 public class OOPs1 {
     public static void main(String[] args) {
         //Object of Class Student

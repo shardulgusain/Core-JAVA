@@ -16,7 +16,7 @@ class Shape{
         this.b =y;
 
     }
-    public static void name()
+    public static  void name()
     {
         System.out.println("I am shape");
     }
@@ -49,10 +49,11 @@ public class JavaPolymorphism {
 
     public static void main(String[] args) {
         Rectangle R = new Rectangle();
+        R.name();
         //R.name();//name function of rectangle is called 
         Shape S = new Rectangle();//Ref is telling us which variable or function it refers to if ref is of type shape then inside shape class the function name will execute .
         System.out.println(S.l);//Length of rectangle object is called
-        S.name();//name function of shape is called though the object is of type rectangle.
+        S.name();//name function of shape is called though the object is of type rectangle. because the function is static and is called by class ref.
         //Conclusion is ....REF variable checks for the variables inside its classes.4
     }
 }
