@@ -1,2 +1,6 @@
 Abstraction is like a design level data hiding. Just like a car , press acc and it will gain velocity.
 Encapsulation is like real implementation , that is what happens when you press accelerator , why tyres gain rotaion, i.e total internal implementation .
+ABSTRACTION IS providing functionality and hiding iplementation.(use of interfaces and abstract class)
+Encapsulation is like implementing functionality while providing abstraction.(use of access modifiers to hide data)
+ Encapsulation :- data hiding + execution.
+ Abstraction :- proving functionality interface.
