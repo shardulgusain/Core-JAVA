@@ -1,9 +1,6 @@
 abstract class Writer
 {
-    public abstract void write()
-    {
-
-    }
+    public abstract void write();
 }
 class Pen extends Writer
 {
