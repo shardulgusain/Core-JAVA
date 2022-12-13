@@ -9,7 +9,7 @@ public class SwapINjava {
         System.out.println(arr1.toString());
         // System.out.println(arr2.toString());
         SWAP(arr1,arr2);
-        System.out.println(arr1[0]);
+        System.out.println(arr1[0]);//the original object is changed hence java is not pass by reference as swap doesnt reflex here.if it would have pass by ref then swap must have swapped the variables.hence java is pass by value of the ref variable that is pass by object value we can say.
         System.out.println(arr1.toString());
         Swap(arr1[0],arr1[1]);
         System.out.println(arr1[0]+" " +arr1[1]);//No swap

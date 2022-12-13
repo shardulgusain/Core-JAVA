@@ -13,7 +13,7 @@ public class finalKeywordObjectDemo {
         Student S1 = new Student("Gusain");
         S.name = S1.name;
         System.out.println(S.name);//Yes the name is changed.
-        S= S1;//This will not execute as you cannot reassign.
+       // S= S1;//This will not execute as you cannot reassign.
         System.out.println(S.name);//
         // System.out.println(S.name+ " "+ S1.name);
         // final int A =10;
